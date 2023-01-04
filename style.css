@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    height: 100%; 
+}
+body {
+    height: 100%; 
+}
+#wrapper {
+    min-height: 100%; 
+    height: auto; 
+    margin: -50px auto 0; 
+}
+#header {
+    padding-top: 50px; 
+}
+#footer {
+    height: 50px; 
+    margin: 0 auto; 
+}
+
+.navbar{
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+    max-width: 1296px;
+    max-height: 65px;
+    align-items: center;
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 197px;
+    max-height: 75px;
+}
+
+.btn{
+    width: 175px;
+}
