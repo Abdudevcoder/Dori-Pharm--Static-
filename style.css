@@ -50,22 +50,28 @@ body {
     float: left;
 }
 
-.intro{
+.main{
     padding-top: 3%;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1296px;
+}
+
+.intro{
     display: flex;
     font-family: 'Mont';
     text-align: center;
 }
 
-.intro-text{
-}
-
 
 .cards{
     margin: 0 auto;
-    width: 1200px;
+    width: 1296px;
     justify-content: space-between;
     display: flex;
+    padding-top: 15px;
+}
+
+.card{
+    border-style: none !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
