@@ -75,3 +75,114 @@ body {
     border-style: none !important;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+
+/* Footer */
+
+.footer{
+    background: #3E3C6E;
+}
+
+.footer-container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.footer__row{
+    max-width: 1140px;
+    padding: 20px;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left{
+    max-width: 400px;
+}
+
+.footer__right{
+    max-width: 500px;
+}
+
+.tel > a, .tel > a:hover, .mail, .mail:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.company__name{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 64px;
+    color: #fff;
+    font-family: 'Mont';
+}
+
+.aboutUs{
+    margin-top: 20px; 
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.15px;
+    color: #fff;
+}
+
+.weOn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.weOn--mobile{
+    display: none;
+}
+
+.weOn__items{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.weOn__item{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+.right__items > h3{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Mont';
+    
+}
+
+.right__items > a, p{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Mont';
+    margin-top: 10px;
+}
+
+.right__items{
+    margin-bottom: 20px;
+}
+
+.authority{
+    font-family: "Mont";
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+}
+
+.tel > a{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Mont';
+    margin-right: 60px;
+}
