@@ -27,10 +27,6 @@ body {
     padding-top: 20px;
 }
 
-#footer {
-    height: 50px;
-    margin: 0 auto;
-}
 
 .navbar {
     margin: 0 auto;
@@ -91,7 +87,6 @@ body {
 }
 
 .footer-container {
-    padding-top: 10%;
     max-width: 1296px;
     margin: 0 auto;
 }
@@ -291,3 +286,46 @@ p {
     padding: 6px 12px;
     border-top: none;
   }
+
+
+/* Sertificates */
+
+.ser-link{
+    text-decoration: none;
+    color:#737373;
+    padding-top: 2.3%;
+}
+
+.ser-link:hover{
+    color: #4C4C4C;
+}
+
+.sertificate-window{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sertificate-window-op{
+    padding-bottom: 5%;
+}
+
+.sertificate-text{
+    color: #3E3C6E;
+    font-family: 'Mont';
+    text-align: center;
+}
+
+.sertificate-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3E3C6E;
+    font-family: 'Mont';
+}
+
+.sertificate-text-mobile{
+    display: none;
+}
+
+.sertificate-link-mobile{
+    display: none;
+}
