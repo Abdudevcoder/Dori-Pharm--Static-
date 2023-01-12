@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar d-flex navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="../images/logo.png" class="logo" alt='logo'></img></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Продукция</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Сертификаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" href="tel:+998 94 0718110" class="btn btn-outline-danger">Связаться с
+                    нами</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class='info-container'>
+            <div class='uperside'>
+                <div class='picture'>
+                    <img class='picture' alt='vitaminE' src='../images/1.jpg'></img>
+                </div>
+                <div class='header'>
+                    <div class='head-text'>Витамин Е</div>
+                    <div class='info-text'>
+                        Витамин Е позволяет улучшить питание кожи и волос, снизить их сухость, укрепить ногти.
+                        Витамин Е влияет на свертываемость крови, помогая предупреждать образование тромбов, улучшает
+                        эластичность крупных и мелких сосудов, а также замедляет образование холестериновых бляшек.
+                        Кроме того, этот витамин жизненно необходим для нормальной работы репродуктивной системы.
+                        Витамин Е способствует улучшению выработки сперматозоидов у мужчин, а у женщин участвует в
+                        регуляции менструального цикла и смягчает неприятные симптомы при климаксе.
+                        Важен витамин Е для полноценного питания эмбриона – улучшает усвоение питательных веществ
+                        клеткам
+                    </div>
+                </div>
+
+            </div>
+            <div class='downside'>
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Sostav')">Состав</button>
+                    <button class="tablinks" onclick="openCity(event, 'Pokazaniya')">Показание</button>
+                    <button class="tablinks" onclick="openCity(event, 'Protiv')">Противопоказания</button>
+                    <button class="tablinks" onclick="openCity(event, 'Hraneniya')">Способ хранения</button>
+                </div>
+
+                <!-- Tab content -->
+                <div id="Sostav" class="tabcontent">
+                    <table>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">Активное вещество:</td>
+                            <td class="downside-text">
+                              Витамин Е (в виде dl-альфа-токоферолацетата) - 400 МЕ (IU).
+                            </td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">
+                              Вспомогательное вещество:
+                            </td>
+                            <td class="downside-text">
+                              Желатин, глицерин, вода, соевое масло.
+                            </td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">
+                              Способ применения и дозы:
+                            </td>
+                            <td class="downside-text">
+                              В качестве пищевой добавки принимайте по одной (1) таблетке в
+                              день, желательно во время еды. Не следует использовать как
+                              замену полноценного рациона питания. Не превышайте рекомендуемые
+                              дозировки.
+                            </td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">Не содержит:</td>
+                            <td class="downside-text">
+                              Молока, яиц, рыбы, ракообразных, орехов, арахиса, дрожжей,
+                              искусственных красителей, ароматизаторов или консервантов.
+                            </td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">Форма выпуска:</td>
+                            <td class="downside-text">60 штук капсул во флаконе.</td>
+                          </tr>
+                        </tbody>
+                        <tbody>
+                          <tr>
+                            <td class="downside-text-bolder">
+                              Дневная рекомендованная норма %DV:
+                            </td>
+                            <td class="downside-text">Одна (1) мягкая капсула.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+
+                <div id="Pokazaniya" class="tabcontent">
+                    <p class="downside-text">
+                        Профилактика гиповитаминоза. Рекомендуется принимать: после
+                        реконвалесценции (выздоровление),высокие физические нагрузки, при
+                        пожилом возраст, заболевания связочного аппарата и мышц, при первичной
+                        мышечной дистрофии, при переутомлении. При дегенеративном и
+                        пролиферативном изменении суставов.
+                      </p>
+                </div>
+
+                <div id="Protiv" class="tabcontent">
+                    <p class="downside-text">
+                        Индивидуальная непереносимость компонентов. Проконсультируйтесь с
+                        врачом перед использованием, если вы беременны, кормите грудью,
+                        принимаете лекарства, имеете заболевание или планируете медицинскую
+                        процедуру. Прекратите использование и обратитесь к врачу, при
+                        возникновений побочных реакций.
+                      </p>
+                </div>
+
+                <div id="Hraneniya" class="tabcontent">
+                    <p class="downside-text">
+                        Хранить в прохладном сухом недоступном для детей месте.
+                      </p>
+                      <p class="downside-text">
+                        Хранить при комнатной температуре (15 °-30°С).
+                      </p>
+                      <p class="downside-text">Держите упаковку плотно закрытой.</p>
+                      <p class="downside-text">
+                        Не используйте упаковку , если под колпачком нарушена или отсутствует
+                        защитная пленка.
+                      </p>
+                      <p class="downside-text">
+                        СРОК ГОДНОСТИ: 3 года. Не применять после истечения срока годности,
+                        указанного на упаковке.
+                      </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+      
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+      
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+      
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
